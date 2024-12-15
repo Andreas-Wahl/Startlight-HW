@@ -1,0 +1,255 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(title "Carrera Start-Ampel \"Bäre(n)keller\"")
+		(date "2023-01-10")
+		(rev "1.0")
+		(company "Andreas Wahl - Welzheim")
+		(comment 1 "https://www.andreas-wahl.de/")
+		(comment 4 "LICENSE: Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) ")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 146.05 78.74) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 0 240 1)
+		)
+		(uuid "211115da-c0f0-42ab-bdf6-9779f7dfdd65")
+	)
+	(polyline
+		(pts
+			(xy 146.05 73.66) (xy 158.75 73.66)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 0 240 1)
+		)
+		(uuid "4420935c-90ff-4b9c-890f-6fb9f2859a11")
+	)
+	(polyline
+		(pts
+			(xy 142.24 76.2) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 0 240 1)
+		)
+		(uuid "630b8b0d-23a5-4bea-93f6-a7c3ef0abc2b")
+	)
+	(polyline
+		(pts
+			(xy 162.56 76.2) (xy 158.75 81.28)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 0 240 1)
+		)
+		(uuid "69946e69-8fe4-48a5-b7d1-ca6775e4099a")
+	)
+	(polyline
+		(pts
+			(xy 146.05 80.01) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 0 240 1)
+		)
+		(uuid "98e9348a-d315-4323-b832-d3dc769e95c7")
+	)
+	(polyline
+		(pts
+			(xy 158.75 81.28) (xy 158.75 78.74)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 0 240 1)
+		)
+		(uuid "a8efbf70-ec0d-434f-a675-92cfd8995ee2")
+	)
+	(polyline
+		(pts
+			(xy 158.75 73.66) (xy 158.75 71.12)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 0 240 1)
+		)
+		(uuid "af436475-59fe-4b3b-a35e-5c51576866e0")
+	)
+	(polyline
+		(pts
+			(xy 158.75 71.12) (xy 162.56 76.2)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 0 240 1)
+		)
+		(uuid "bfc4279c-6e14-4e4d-9f3f-11710dd30f32")
+	)
+	(polyline
+		(pts
+			(xy 158.75 78.74) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 0 240 1)
+		)
+		(uuid "c63bbc12-eafa-4d8d-9c53-399717a41481")
+	)
+	(polyline
+		(pts
+			(xy 142.24 76.2) (xy 146.05 71.12)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 0 240 1)
+		)
+		(uuid "dd7d681d-c843-47ea-a77f-4b7d9a39d7ea")
+	)
+	(polyline
+		(pts
+			(xy 146.05 71.12) (xy 146.05 73.66)
+		)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 0 240 1)
+		)
+		(uuid "e1836fd3-af02-40d7-a719-4c90791eb6e4")
+	)
+	(text "Mittels AVR-Mikrocontroller wird der Manchester-Code der Carrera Digital 132 Rennbahn ausgewertet.\nHerausgefiltert werden Informationen zum Zustand der Startampel/Startsequenz, sowie die Aktivität des PACE-CAR.\nEntsprechend diesen Informationen wird eine LED-Startampel angesteuert.\n"
+		(exclude_from_sim no)
+		(at 38.1 44.45 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "36970c27-997b-417a-9793-8308a383da1f")
+	)
+	(text "Signalverbindung \nwird über Pfosten-\nSteckverbinder\nhergestellt.\n\nBeide Platinen werden\nüber die Rückseiten\nals \"Sandwich\"\nzusammengesteckt"
+		(exclude_from_sim no)
+		(at 142.24 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afac9d95-ce9e-4b45-9e7f-af9d66d36228")
+	)
+	(text "PROJEKT: CARRERA DIGITAL 132 - STARTAMPEL: \"BÄREN(N)KELLER\""
+		(exclude_from_sim no)
+		(at 38.1 30.48 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5b77af8-f7da-4599-bb98-046f20199f1d")
+	)
+	(sheet
+		(at 50.8 63.5)
+		(size 88.9 63.5)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "3c7225be-0e5f-435d-9f37-bd4538e8d536")
+		(property "Sheetname" "PCB1: Hauptplatine"
+			(at 50.8 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCB1_Mainboard.kicad_sch"
+			(at 50.8 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Startlight-Baerenkeller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 63.5)
+		(size 63.5 63.5)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "6f252de8-4e33-4d64-8d6f-88700c27788c")
+		(property "Sheetname" "PCB2: Anzeigeplatine"
+			(at 165.1 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCB2_Display.kicad_sch"
+			(at 165.1 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Startlight-Baerenkeller"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
