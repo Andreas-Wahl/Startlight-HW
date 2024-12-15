@@ -1,0 +1,11 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Sim.Device,Sim.Pins
+C7,1,10uF/50V,CP_Radial_Tantal_D5.5mm_P2.50mm,,,,tht,Polarized capacitor,,
+"D10, D11, D12, D13, D14, D15, D16, D17, D18, D9",10,rt/5mm,LED_D5.0mm_rd,,,,tht,Light emitting diode,,
+"D19, D20, D21, D22, D23",5,gn/5mm,LED_D5.0mm_gn,,,,tht,Light emitting diode,,
+"D24, D25, D26, D27, D28",5,ge/5mm,LED_D5.0mm_ye,,,,tht,Light emitting diode,,
+D8,1,1N4001,D_DO-41_SOD81_P7.62mm_Horizontal,,,,tht,"50V 1A General Purpose Rectifier Diode, DO-41",D,1=K 2=A
+J6,1,LED_IN,PinHeader_1x10_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x10, script generated",,
+J7,1,HALTER,PinHeader_1x05_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x05, script generated",,
+"R10, R11, R12, R8, R9",5,560R,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,,tht,Resistor,,
+"R13, R14",2,220R,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,,,tht,Resistor,,
+U3,1,ULN2003A,DIP-16_W7.62mm,,,,tht,"High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16",,
